@@ -36,7 +36,7 @@
 <script>
 const slug = location.pathname.split('/').pop();
 
-fetch(`https://cadeaukaart-setup.vercel.app/api/open?id=${slug}`)
+fetch(`https://cadeaukaart-setup-5krf68fu8-kays-projects-c29956c3.vercel.app/`)
   .then(r => r.json())
   .then(data => {
     if (!data || Date.now() > data.expires) {
